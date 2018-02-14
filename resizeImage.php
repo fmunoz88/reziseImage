@@ -144,6 +144,11 @@
         } else {
             $img = ImageCreateFromJPEG($img_original);
         }
+        
+        //Otras configuraciones
+        //imagecreatefromwbmp()
+        //imagecreatefromgif()
+        
         $width = imagesx($img);//ancho
         $height = imagesy($img);//alto
         
